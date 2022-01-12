@@ -5,7 +5,7 @@ export const Section = styled.section`
   flex-flow: row wrap;
   justify-content: space-evenly;
   /* Fazer rolagem tipo netflix */
-  /* width: 1920px; */
+  /* width: 1920px auto; */
 `;
 export const Boxs = styled.div`
   width: 300px;
