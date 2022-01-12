@@ -1,5 +1,16 @@
+import { GlobalStyle } from "./styles";
+// eslint-disable-next-line import/named
+import { Box } from "./components/Box";
+import { Title } from "./components/Title/styles";
+
 function App() {
-  return <h1>Wello word</h1>;
+  return (
+    <>
+      <GlobalStyle />
+      <Title>task list</Title>
+      <Box />
+    </>
+  );
 }
 
 export default App;
