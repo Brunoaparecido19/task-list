@@ -14,19 +14,19 @@ export const FormInput = styled.input`
   margin-top: -20px;
   width: 280px;
   height: 40px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
+  border: none;
+  border-bottom: 1px solid #ccc;
   background-color: #262626;
-  color: white;
+  color: #fff;
 `;
 export const FormBtn = styled.button`
   position: absolute;
-  margin-top: -38px;
-  margin-left: 245px;
+  margin-top: -35px;
+  margin-left: 248px;
   padding: 10px;
   cursor: pointer;
   color: white;
-  background-color: #464646;
+  background-color: #00c613;
   border: none;
   border-radius: 5px;
 `;

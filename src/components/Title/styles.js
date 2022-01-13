@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Title = styled.h1`
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   text-transform: uppercase;
   font-size: 50px;
   text-shadow: 3px 5px 2px #474747;
@@ -18,5 +18,5 @@ export const TitleBoxs = styled(Title)`
   margin-top: 10px;
   margin-left: 30px;
   text-align: start;
-  font-family: 'Source Sans Pro', sans-serif;
-  `;
+  font-family: "Source Sans Pro", sans-serif;
+`;

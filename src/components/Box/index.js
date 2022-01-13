@@ -77,7 +77,6 @@ export default class BoxComponents extends Component {
           </Boxs>
           <Boxs>
             <TitleBoxs> in progress</TitleBoxs>
-
           </Boxs>
           <Boxs>
             <TitleBoxs> designed</TitleBoxs>

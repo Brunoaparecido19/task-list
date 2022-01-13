@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { FiEdit, FiDelete } from "react-icons/fi";
+import { FiEdit } from "react-icons/fi";
+import { AiOutlineDelete } from "react-icons/ai";
 import { DivTaks } from "./styles";
 
 export default function Tasks({ task, handleDelete, handleEdit }) {
@@ -12,7 +13,7 @@ export default function Tasks({ task, handleDelete, handleEdit }) {
             {tasks}
             <span>
               <FiEdit onClick={(e) => handleEdit(e, index)} className="edit" />
-              <FiDelete
+              <AiOutlineDelete
                 onClick={(e) => handleDelete(e, index)}
                 className="delete"
               />
