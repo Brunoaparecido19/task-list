@@ -12,7 +12,7 @@ export const FormInput = styled.input`
   align-items: center;
   justify-content: center;
   margin-top: -20px;
-  width: 250px;
+  width: 280px;
   height: 40px;
   border-radius: 5px;
   border: 1px solid #ccc;
@@ -22,7 +22,7 @@ export const FormInput = styled.input`
 export const FormBtn = styled.button`
   position: absolute;
   margin-top: -38px;
-  margin-left: 215px;
+  margin-left: 245px;
   padding: 10px;
   cursor: pointer;
   color: white;

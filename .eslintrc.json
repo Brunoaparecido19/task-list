@@ -22,14 +22,8 @@
     ],
     "react/react-in-jsx-scope": "off",
     "react/jsx-one-expression-per-line": "off",
-    "quotes": [
-      "error",
-      "double"
-    ],
-    "comma-dangle": [
-      "error",
-      "always-multiline"
-    ],
+    "quotes": ["error", "double"],
+    "comma-dangle": ["error", "always-multiline"],
     "global-require": "off",
     "import/prefer-default-export": "off",
     "no-unused-expressions": ["error", { "allowTaggedTemplates": true }]
