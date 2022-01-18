@@ -27,7 +27,6 @@ export const DivTaks = styled.div`
   }
   li:hover {
     background-color: #464646;
-    cursor: pointer;
   }
   span{
     display: flex;
@@ -40,10 +39,12 @@ export const DivTaks = styled.div`
     color: #ccc;
     font-size: 18px;
     margin-top: 10px;
+    cursor: pointer;
   }
   .delete {
     color: #ff2b2b;
     font-size: 20px;
     margin-top: 10px;
+    cursor: pointer;
   }
 `;

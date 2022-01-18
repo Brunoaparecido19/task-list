@@ -19,11 +19,15 @@ export default class BoxComponents extends Component {
     }
   }
 
-  componentDidUpdate(prevProps, prevState) {
+  componentDidUpdate(_prevProps, prevState) {
     const { task } = this.state;
     if (task === prevState.task) return;
     localStorage.setItem("task", JSON.stringify(task));
   }
+
+  handleFixedIndex = (e) => {
+    this.setState({ task: e, index: e.indexOf(e) });
+  };
 
   handleChange = (e) => {
     this.setState({ newTask: e.target.value });
@@ -73,6 +77,7 @@ export default class BoxComponents extends Component {
               task={task}
               handleDelete={this.handleDelete}
               handleEdit={this.handleEdit}
+              handleFixedIndex={this.handleFixedIndex}
             />
           </Boxs>
           <Boxs>
